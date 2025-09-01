@@ -23,12 +23,4 @@ data:extend({
 		setting_type = "runtime-global",
 		default_value = false,
 	},
-	{
-		type = "double-setting",
-		name = "rocs-hardcore-bonus-shotgun-damage-percent",
-		setting_type = "startup",
-		default_value = 40,
-		minimum_value = 0,
-		maximum_value = 10000,
-	},
 })

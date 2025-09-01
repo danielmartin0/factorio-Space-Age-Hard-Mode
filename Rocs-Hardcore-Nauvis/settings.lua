@@ -31,4 +31,13 @@ data:extend({
 		maximum_value = 10000,
 		order = "e",
 	},
+	{
+		type = "double-setting",
+		name = "hard-nauvis-bonus-shotgun-damage-percent",
+		setting_type = "startup",
+		default_value = 40,
+		minimum_value = 0,
+		maximum_value = 10000,
+		order = "f",
+	},
 })
