@@ -1,10 +1,10 @@
-local biters = {
-	["small-biter"] = true,
-	["medium-biter"] = true,
-	["big-biter"] = true,
-	["behemoth-biter"] = true,
-	["leviathan-biter"] = true,
-}
+-- local biters = {
+-- 	["small-biter"] = true,
+-- 	["medium-biter"] = true,
+-- 	["big-biter"] = true,
+-- 	["behemoth-biter"] = true,
+-- 	["leviathan-biter"] = true,
+-- }
 
 -- local spitters = {
 -- 	["small-spitter"] = true,

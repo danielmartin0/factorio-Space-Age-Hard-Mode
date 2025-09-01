@@ -1,12 +1,6 @@
 data:extend({
 	{
 		type = "bool-setting",
-		name = "rocs-hardcore-disable-lighted-electric-poles",
-		setting_type = "startup",
-		default_value = false,
-	},
-	{
-		type = "bool-setting",
 		name = "rocs-hardcore-a-enable-info-gui",
 		setting_type = "runtime-per-user",
 		default_value = true,

@@ -1,4 +1,4 @@
-if settings.startup["rocs-hardcore-disable-lighted-electric-poles"].value then
+if settings.startup["hard-nauvis-disable-lighted-electric-poles"].value then
 	-- Remove all recipes starting with "lighted-"
 	for name, _ in pairs(data.raw.recipe) do
 		if name and type(name) == "string" and string.sub(name, 1, 8) == "lighted-" then
@@ -84,7 +84,7 @@ else
 				end
 
 				new_layers[#new_layers + 1] = {
-					filename = "__Space-Age-Hardcore-Mode__/graphics/entity-lighted-icons.png",
+					filename = "__Rocs-Hardcore-Nauvis__/graphics/entity-lighted-icons.png",
 					priority = "extra-high",
 					width = 32,
 					height = 32,

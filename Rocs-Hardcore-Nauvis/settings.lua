@@ -40,4 +40,11 @@ data:extend({
 		maximum_value = 10000,
 		order = "f",
 	},
+	{
+		type = "bool-setting",
+		name = "hard-nauvis-disable-lighted-electric-poles",
+		setting_type = "startup",
+		default_value = false,
+		order = "g",
+	},
 })

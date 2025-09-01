@@ -4,6 +4,7 @@
         "rocs-hardcore-oresa-half-mixed-nauvis-ores": "hard-nauvis-half-mixed-ores",
         "rocs-hardcore-oresb-fully-mixed-nauvis-ores": "hard-nauvis-fully-mixed-ores",
         "rocs-hardcore-efficiency-module-effectiveness-multiplier": "hard-nauvis-efficiency-module-effectiveness-multiplier",
-        "rocs-hardcore-bonus-shotgun-damage-percent": "hard-nauvis-bonus-shotgun-damage-percent"
+        "rocs-hardcore-bonus-shotgun-damage-percent": "hard-nauvis-bonus-shotgun-damage-percent",
+        "rocs-hardcore-disable-lighted-electric-poles": "hard-nauvis-disable-lighted-electric-poles"
     }
 }
