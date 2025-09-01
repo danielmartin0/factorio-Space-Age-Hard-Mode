@@ -12,14 +12,6 @@ data:extend({
 		default_value = true,
 	},
 	{
-		type = "double-setting",
-		name = "rocs-hardcore-efficiency-module-effectiveness-multiplier",
-		setting_type = "startup",
-		default_value = 0.75,
-		minimum_value = 0.0001,
-		maximum_value = 10000,
-	},
-	{
 		type = "bool-setting",
 		name = "rocs-hardcore-expensive-utility-science",
 		setting_type = "startup",

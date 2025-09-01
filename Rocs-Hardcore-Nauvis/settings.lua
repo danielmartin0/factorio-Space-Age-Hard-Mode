@@ -22,4 +22,13 @@ data:extend({
 		default_value = false,
 		order = "d",
 	},
+	{
+		type = "double-setting",
+		name = "hard-nauvis-efficiency-module-effectiveness-multiplier",
+		setting_type = "startup",
+		default_value = 0.75,
+		minimum_value = 0.0001,
+		maximum_value = 10000,
+		order = "e",
+	},
 })
