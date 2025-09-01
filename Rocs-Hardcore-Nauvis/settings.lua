@@ -51,7 +51,7 @@ data:extend({
 		type = "bool-setting",
 		name = "hard-nauvis-landmines-disabled",
 		setting_type = "runtime-global",
-		default_value = true,
+		default_value = false,
 		order = "h",
 	},
 })

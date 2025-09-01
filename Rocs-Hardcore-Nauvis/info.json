@@ -5,7 +5,7 @@
     "title": "Hard Nauvis",
     "author": "thesixthroc",
     "contact": "Discord: https://discord.gg/VuVhYUBbWE",
-    "description": "Tweaks to Nauvis. Vanilla+.",
+    "description": "Difficulty tweaks to Nauvis. Nights are darker, some ore patches are mixed, projectiles can miss, efficiency modules are 30% weaker, flamethrowers and locomotives use more fuel, and shotguns are stronger. There are many optional dependencies to customize enemies and other aspects of Nauvis. Vanilla+.",
     "homepage": "https://discord.gg/VuVhYUBbWE",
     "dependencies": [
         "base >= 2.0.19",
@@ -15,16 +15,17 @@
         "Lighted-Poles-Plus",
         "distant-misfires",
         "fire-lights",
+        "flamethrower-turret-balance",
         "? Rocs-Hardcore-Delayed-Tech-Tree",
+        "? PowerOverload",
         "? LandmineExplosionsDoHurt",
         "? ArmouredBiters",
         "? Explosive_biters",
         "? Toxic_biters",
-        "? Electric_flying_enemies",
-        "? Rocs-Rusting-Iron",
         "? BiolabsNeedNutrients",
         "? hot-metals",
         "? scrap-industry",
+        "? Rocs-Rusting-Iron",
         "? BiterShield2"
     ]
 }

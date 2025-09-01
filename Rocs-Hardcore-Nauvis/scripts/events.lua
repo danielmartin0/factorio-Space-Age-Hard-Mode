@@ -15,16 +15,16 @@ end
 
 script.on_event(defines.events.on_player_joined_game, function(event)
 	local player = game.players[event.player_index]
-	Common.init_tech(player.force)
+	Public.init_tech(player.force)
 end)
 
 script.on_event(defines.events.on_force_created, function(event)
-	Common.init_tech(event.force)
+	Public.init_tech(event.force)
 end)
 
 script.on_configuration_changed(function()
 	for _, force in pairs(game.forces) do
-		Common.init_tech(force)
+		Public.init_tech(force)
 	end
 end)
 
