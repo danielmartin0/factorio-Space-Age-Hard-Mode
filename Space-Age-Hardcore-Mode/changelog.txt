@@ -1,10 +1,14 @@
 ---------------------------------------------------------------------------------------------------
-Version: 2.3.0
+Version: 2.3.1
 Date: ????
   Changes:
-    - This top-level mod is now purely a modpack, and no longer contains any tweaks itself. That way, turning off a dependency no longer requires you to lose certain tweaks.
+---------------------------------------------------------------------------------------------------
+Version: 2.3.0
+Date: 2025-09-01
+  Changes:
+    - This top-level mod is now purely a modpack, and no longer contains any tweaks itself. This means players can more easily remove dependencies.
     - Split off Hard Nauvis into its own mod.
-    - Added a mandatory dependency on Planet Hopper.
+    - Added a mandatory dependency on Planet Hopper, since this is generally crucial to Hard Mode.
 ---------------------------------------------------------------------------------------------------
 Version: 2.2.10
 Date: 2025-07-15

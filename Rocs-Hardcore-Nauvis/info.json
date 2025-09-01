@@ -1,11 +1,11 @@
 {
     "name": "Rocs-Hardcore-Nauvis",
-    "version": "0.1.0",
+    "version": "0.1.2",
     "factorio_version": "2.0",
     "title": "Hard Nauvis",
     "author": "thesixthroc",
     "contact": "Discord: https://discord.gg/VuVhYUBbWE",
-    "description": "Difficulty tweaks to Nauvis. Nights are darker, some ore patches are mixed, projectiles can miss, efficiency modules are 30% weaker, flamethrowers and locomotives use more fuel, and shotguns are stronger. There are many optional dependencies to customize enemies and other aspects of Nauvis. Vanilla+.",
+    "description": "Difficulty tweaks for Nauvis. Nights are darker, some ores are mixed, flamethrowers and locomotives use more fuel, and shotguns are stronger. Optional dependencies affect enemies and other aspects of Nauvis. Part of Space Age: Hard Mode. Vanilla+.",
     "homepage": "https://discord.gg/VuVhYUBbWE",
     "dependencies": [
         "base >= 2.0.19",
@@ -16,16 +16,18 @@
         "distant-misfires",
         "fire-lights",
         "flamethrower-turret-balance",
+        "LandmineExplosionsDoHurt",
         "? Rocs-Hardcore-Delayed-Tech-Tree",
-        "? PowerOverload",
-        "? LandmineExplosionsDoHurt",
+        "? RampantFixed",
+        "? intelligent-enemy",
         "? ArmouredBiters",
         "? Explosive_biters",
         "? Toxic_biters",
+        "? BiterShield2",
+        "? PowerOverload",
         "? BiolabsNeedNutrients",
         "? hot-metals",
         "? scrap-industry",
-        "? Rocs-Rusting-Iron",
-        "? BiterShield2"
+        "? Rocs-Rusting-Iron"
     ]
 }
