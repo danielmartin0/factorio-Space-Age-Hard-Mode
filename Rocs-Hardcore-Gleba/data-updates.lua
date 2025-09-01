@@ -1,3 +1,5 @@
+PlanetsLib.add_entity_type_to_planet_cargo_drops_whitelist("gleba", "construction-robot")
+
 if settings.startup["rocs-hardcore-gleba-push-back-heating-tower"].value then
 	data.raw.technology["heating-tower"].prerequisites = {
 		"agricultural-science-pack",

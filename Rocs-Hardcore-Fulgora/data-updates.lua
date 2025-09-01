@@ -1,3 +1,5 @@
+PlanetsLib.add_entity_type_to_planet_cargo_drops_whitelist("fulgora", "construction-robot")
+
 if settings.startup["rocs-hardcore-fulgora-lightning-rods-need-research"].value then
 	local effects = data.raw.technology["planet-discovery-fulgora"].effects
 	for i = #effects, 1, -1 do

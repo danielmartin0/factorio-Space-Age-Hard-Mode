@@ -33,26 +33,6 @@ data:extend({
 	},
 	{
 		type = "double-setting",
-		name = "rocs-hardcore-locomotive-fuel-spend-multiplier",
-		setting_type = "startup",
-		default_value = 3,
-		minimum_value = 0.0001,
-		maximum_value = 10000,
-	},
-	{
-		type = "bool-setting",
-		name = "rocs-hardcore-oresa-half-mixed-nauvis-ores",
-		setting_type = "runtime-global",
-		default_value = true,
-	},
-	{
-		type = "bool-setting",
-		name = "rocs-hardcore-oresb-fully-mixed-nauvis-ores",
-		setting_type = "runtime-global",
-		default_value = false,
-	},
-	{
-		type = "double-setting",
 		name = "rocs-hardcore-bonus-shotgun-damage-percent",
 		setting_type = "startup",
 		default_value = 40,

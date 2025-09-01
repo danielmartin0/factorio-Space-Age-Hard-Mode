@@ -1,3 +1,5 @@
+PlanetsLib.add_entity_type_to_planet_cargo_drops_whitelist("vulcanus", "construction-robot")
+
 if settings.startup["rocs-hardcore-vulcanus-condensed-map"].value then
 	data.raw["noise-expression"]["vulcanus_starting_area_radius"].expression = "(4 / 7) * 0.7 * 0.75"
 

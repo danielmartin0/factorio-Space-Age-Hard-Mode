@@ -32,8 +32,8 @@ script.on_event(defines.events.on_chunk_generated, function(event)
 
 	if
 		not (
-			settings.global["rocs-hardcore-oresa-half-mixed-nauvis-ores"].value
-			or settings.global["rocs-hardcore-oresb-fully-mixed-nauvis-ores"].value
+			settings.global["hard-nauvis-half-mixed-ores"].value
+			or settings.global["hard-nauvis-fully-mixed-ores"].value
 		)
 	then
 		return
@@ -70,9 +70,9 @@ script.on_event(defines.events.on_chunk_generated, function(event)
 	end
 
 	local setting = MixedOreSettings.DISABLED
-	if settings.global["rocs-hardcore-oresb-fully-mixed-nauvis-ores"].value then
+	if settings.global["hard-nauvis-fully-mixed-ores"].value then
 		setting = MixedOreSettings.FULLY_MIXED
-	elseif settings.global["rocs-hardcore-oresa-half-mixed-nauvis-ores"].value then
+	elseif settings.global["hard-nauvis-half-mixed-ores"].value then
 		setting = MixedOreSettings.HALF_MIXED
 	end
 

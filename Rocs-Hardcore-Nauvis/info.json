@@ -1,0 +1,29 @@
+{
+    "name": "Rocs-Hardcore-Nauvis",
+    "version": "0.1.0",
+    "factorio_version": "2.0",
+    "title": "Hard Nauvis",
+    "author": "thesixthroc",
+    "contact": "Discord: https://discord.gg/VuVhYUBbWE",
+    "description": "Tweaks to Nauvis. Vanilla+.",
+    "homepage": "https://discord.gg/VuVhYUBbWE",
+    "dependencies": [
+        "base >= 2.0.19",
+        "space-age >= 2.0.19",
+        "PlanetsLib >= 1.0.7",
+        "? diurnal-dynamics",
+        "? Lighted-Poles-Plus",
+        "? LandmineExplosionsDoHurt",
+        "? distant-misfires",
+        "? fire-lights",
+        "? ArmouredBiters",
+        "? Explosive_biters",
+        "? Toxic_biters",
+        "? Electric_flying_enemies",
+        "? Rocs-Rusting-Iron",
+        "? BiolabsNeedNutrients",
+        "? hot-metals",
+        "? scrap-industry",
+        "? BiterShield2"
+    ]
+}

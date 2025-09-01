@@ -1,6 +1,6 @@
 {
     "name": "Rocs-Hardcore-Space-Tweaks",
-    "version": "2.0.2",
+    "version": "2.0.4",
     "factorio_version": "2.0",
     "title": "Hard Space",
     "author": "thesixthroc",
@@ -14,6 +14,7 @@
         "quality-asteroids",
         "no-more-asteroid-quality",
         "promethium-decay",
+        "Railguns-Require-Fluoroketone",
         "? Planetary-Distance-Adjustments",
         "(?) Redrawn-Space-Connections"
     ]

@@ -6,9 +6,3 @@ for _, module_name in pairs(module_tiers) do
 			* settings.startup["rocs-hardcore-efficiency-module-effectiveness-multiplier"].value
 	end
 end
-
---== Locomotives ==--
-if data.raw["locomotive"]["locomotive"] and data.raw["locomotive"]["locomotive"].energy_source.effectivity then
-	data.raw["locomotive"]["locomotive"].energy_source.effectivity = data.raw["locomotive"]["locomotive"].energy_source.effectivity
-		/ settings.startup["rocs-hardcore-locomotive-fuel-spend-multiplier"].value
-end
