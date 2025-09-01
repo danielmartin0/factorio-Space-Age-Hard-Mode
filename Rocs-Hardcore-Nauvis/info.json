@@ -11,6 +11,7 @@
         "base >= 2.0.19",
         "space-age >= 2.0.19",
         "PlanetsLib >= 1.0.7",
+        "? Rocs-Hardcore-Delayed-Tech-Tree",
         "? diurnal-dynamics",
         "? Lighted-Poles-Plus",
         "? LandmineExplosionsDoHurt",
