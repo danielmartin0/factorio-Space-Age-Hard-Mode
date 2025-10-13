@@ -42,13 +42,6 @@ data:extend({
 	},
 	{
 		type = "bool-setting",
-		name = "hard-nauvis-disable-lighted-electric-poles",
-		setting_type = "startup",
-		default_value = false,
-		order = "g",
-	},
-	{
-		type = "bool-setting",
 		name = "hard-nauvis-landmines-disabled",
 		setting_type = "runtime-global",
 		default_value = false,

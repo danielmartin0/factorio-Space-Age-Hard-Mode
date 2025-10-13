@@ -1,7 +1,55 @@
 ---------------------------------------------------------------------------------------------------
-Version: 2.2.3
+Version: 2.3.1
 Date: ????
   Changes:
+---------------------------------------------------------------------------------------------------
+Version: 2.3.0
+Date: 2025-09-27
+  Changes:
+    - The dependencies of this mod are now optional to allow for better control.
+---------------------------------------------------------------------------------------------------
+Version: 2.2.11
+Date: 2025-09-23
+  Bugfixes:
+    - Fixed that the setting to disable coal liquefaction changes did not work.
+  Changes:
+    - The nerf to coal liquefaction recipes is now disabled by default.
+---------------------------------------------------------------------------------------------------
+Version: 2.2.10
+Date: 2025-09-14
+  Changes:
+    - -50% products and +50% crafting time for coal liquefaction and simple coal liquefaction.
+---------------------------------------------------------------------------------------------------
+Version: 2.2.9
+Date: 2025-09-08
+  Balancing:
+    - Cargo pods tech cost dropped to 1k.
+---------------------------------------------------------------------------------------------------
+Version: 2.2.8
+Date: 2025-09-06
+  Changes:
+    - Added optional dependency Hide Demolisher Territory.
+---------------------------------------------------------------------------------------------------
+Version: 2.2.7
+Date: 2025-09-06
+  Changes:
+    - Added setting to remove space science from the Vulcanus cargo drops technology.
+---------------------------------------------------------------------------------------------------
+Version: 2.2.6
+Date: 2025-09-06
+  Changes:
+    - Added setting 'Disable Molten Metals restriction' to cancel out the 'No Molten Metals in Pumps' mod.
+    - Fixed that toggling the 'Disable No Lava In Pipes mod' setting from off to on would not restore pumps on lava to working order.
+---------------------------------------------------------------------------------------------------
+Version: 2.2.4-2.2.5
+Date: 2025-09-04
+  Changes:
+    - Metallurgy recipe clones are now hidden in Factoriopedia.
+---------------------------------------------------------------------------------------------------
+Version: 2.2.3
+Date: 2025-09-02
+  Changes:
+    - Added optional dependency Explosive Biters.
 ---------------------------------------------------------------------------------------------------
 Version: 2.2.2
 Date: 2025-08-14

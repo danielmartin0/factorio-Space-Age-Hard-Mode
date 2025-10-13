@@ -1,11 +1,36 @@
 ---------------------------------------------------------------------------------------------------
-Version: 2.3.2
+Version: 2.4.1
 Date: ????
   Changes:
 ---------------------------------------------------------------------------------------------------
+Version: 2.4.0
+Date: 2025-09-27
+  Changes:
+    - The mandatory dependencies of Hard Mode sub-mods have been moved to this top-level mod. This makes it possible to use the sub-mods without these additional dependencies.
+---------------------------------------------------------------------------------------------------
+Version: 2.3.5
+Date: 2025-09-08
+  Changes:
+    - Added dependency Harder Pack Logistics (moved here from the Hard Space mod).
+---------------------------------------------------------------------------------------------------
+Version: 2.3.4
+Date: 2025-09-05
+  Changes:
+    - Description update.
+---------------------------------------------------------------------------------------------------
+Version: 2.3.3
+Date: 2025-09-05
+  Changes:
+    - Added 'Hard Muluna' as a soft dependency.
+---------------------------------------------------------------------------------------------------
+Version: 2.3.2
+Date: 2025-09-02
+  Info:
+    - Information update.
+---------------------------------------------------------------------------------------------------
 Version: 2.3.1
 Date: 2025-09-01
-  Changes:
+  Info:
     - Removed 'Beta' from the title.
 ---------------------------------------------------------------------------------------------------
 Version: 2.3.0
@@ -13,7 +38,7 @@ Date: 2025-09-01
   Changes:
     - This top-level mod is now purely a modpack, and no longer contains any tweaks itself. This means players can more easily remove dependencies.
     - Split off Hard Nauvis into its own mod.
-    - Added a mandatory dependency on Planet Hopper, since this is generally crucial to Hard Mode.
+    - Added a mandatory dependency on Planet Hopper, this entity is crucial to Hard Mode.
 ---------------------------------------------------------------------------------------------------
 Version: 2.2.10
 Date: 2025-07-15

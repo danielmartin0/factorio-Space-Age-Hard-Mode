@@ -42,16 +42,18 @@ if settings.startup["rocs-hardcore-fulgora-cargo-drops-need-research"].value the
 		PlanetsLib.cargo_drops_technology_base("fulgora", "__space-age__/graphics/technology/fulgora.png", 256)
 	fulgora_cargo_tech.prerequisites = { "electromagnetic-science-pack" }
 	fulgora_cargo_tech.unit = {
-		count = 2500,
+		count = 1000,
 		time = 60,
 		ingredients = {
 			{ "automation-science-pack", 1 },
 			{ "logistic-science-pack", 1 },
 			{ "chemical-science-pack", 1 },
-			{ "space-science-pack", 1 },
 			{ "electromagnetic-science-pack", 1 },
 		},
 	}
+	if settings.startup["rocs-hardcore-fulgora-cargo-drop-research-needs-space-science"].value then
+		table.insert(fulgora_cargo_tech.unit.ingredients, { "space-science-pack", 1 })
+	end
 
 	data:extend({ fulgora_cargo_tech })
 end

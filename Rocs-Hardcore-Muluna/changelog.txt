@@ -1,0 +1,22 @@
+---------------------------------------------------------------------------------------------------
+Version: 1.0.4
+Date: ????
+  Changes:
+---------------------------------------------------------------------------------------------------
+Version: 1.0.3
+Date: 2025-09-10
+  Bugfixes:
+    - Fixed that the settings were not enforced correctly.
+  Changes:
+    - The mod now forces the settings to true and hides them.
+    - Future Muluna Hard Mode settings will now be set automatically.
+---------------------------------------------------------------------------------------------------
+Version: 1.0.1
+Date: 2025-09-05
+  Features:
+    - The mod no longer sets the settings it changes to hidden.
+---------------------------------------------------------------------------------------------------
+Version: 1.0.0
+Date: 2025-09-05
+  Features:
+    - Initial release.

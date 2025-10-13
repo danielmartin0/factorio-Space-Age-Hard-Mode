@@ -1,0 +1,11 @@
+{
+    "name": "Rocs-Hardcore-Muluna",
+    "author": "thesixthroc",
+    "version": "1.0.4",
+    "title": "Hard Muluna",
+    "description": "Tweaks to Muluna. Cargo drops are restricted, and certain initial technologies, Greenhouses and Silicon processing, require a small science chain on the moon.\n\nThis mod simply sets new default values for certain settings in the Muluna mod.",
+    "contact": "Discord: thesixthroc",
+    "factorio_version": "2.0",
+    "dependencies": ["base >= 2.0.0", "space-age >= 2.0.0", "planet-muluna >= 2.1.13"],
+    "freezing_required": true
+}

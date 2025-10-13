@@ -1,6 +1,6 @@
 {
     "name": "Rocs-Hardcore-Space-Tweaks",
-    "version": "2.0.4",
+    "version": "2.2.4",
     "factorio_version": "2.0",
     "title": "Hard Space",
     "author": "thesixthroc",
@@ -11,11 +11,10 @@
     "dependencies": [
         "base >= 2.0.0",
         "space-age >= 2.0.0",
-        "quality-asteroids",
-        "no-more-asteroid-quality",
-        "promethium-decay",
-        "Railguns-Require-Fluoroketone",
-        "? Planetary-Distance-Adjustments",
+        "? quality-asteroids",
+        "? no-more-asteroid-quality",
+        "? promethium-decay",
+        "? Railguns-Require-Fluoroketone",
         "(?) Redrawn-Space-Connections"
     ]
 }

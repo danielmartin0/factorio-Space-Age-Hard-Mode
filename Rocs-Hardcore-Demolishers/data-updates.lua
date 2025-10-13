@@ -160,15 +160,34 @@ if settings.startup["rocs-hardcore-advanced-casting-recipe"].value then
 	end
 end
 
-if settings.startup["rocs-hardcore-demolishers-disable-no-lava-in-pipes"].value then
-	data.raw["offshore-pump"]["lava-pump"].created_effect = {
-		type = "direct",
-		action_delivery = {
-			type = "instant",
-			source_effects = {
-				type = "script",
-				effect_id = "hard-mode-replace-lava-pump",
-			},
-		},
-	}
+if settings.startup["rocs-hardcore-vulcanus-nerf-coal-liquefaction-recipes"].value then
+	for _, recipe_name in pairs({
+		"simple-coal-liquefaction",
+		"coal-liquefaction",
+	}) do
+		if data.raw.recipe[recipe_name] then
+			local recipe = data.raw.recipe[recipe_name]
+
+			-- +50% time
+			if recipe.energy_required then
+				recipe.energy_required = recipe.energy_required * 1.5
+			end
+
+			-- Halve the products
+			for _, result in pairs(recipe.results or {}) do
+				if result.amount then
+					result.amount = result.amount * 0.5
+				end
+				if result.amount_min then
+					result.amount_min = result.amount_min * 0.5
+				end
+				if result.amount_max then
+					result.amount_max = result.amount_max * 0.5
+				end
+				if result.probability then
+					result.probability = result.probability * 0.5
+				end
+			end
+		end
+	end
 end

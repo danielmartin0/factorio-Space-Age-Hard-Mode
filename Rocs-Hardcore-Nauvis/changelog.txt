@@ -1,7 +1,33 @@
 ---------------------------------------------------------------------------------------------------
-Version: 0.1.2
+Version: 0.4.2
 Date: ????
   Changes:
+---------------------------------------------------------------------------------------------------
+Version: 0.4.1
+Date: 2025-10-13
+  Changes:
+    - Fixed a crash when the Diurnal Dynamics mod is not installed.
+---------------------------------------------------------------------------------------------------
+Version: 0.4.0
+Date: 2025-09-27
+  Changes:
+    - The dependencies of this mod are now optional to allow for better control.
+---------------------------------------------------------------------------------------------------
+Version: 0.3.0
+Date: 2025-09-10
+  Changes:
+    - BREAKING CHANGE: Quality Biters is now a mandatory dependency. It is recommended to stay on 0.2.0 for existing Nauvis bases, because this increases the range of spitters.
+---------------------------------------------------------------------------------------------------
+Version: 0.2.0
+Date: 2025-09-04
+  Changes:
+    - Adjusted the default settings of Dirunal Dynamics to -10% default brightness (it's more playable) and enable flares.
+    - Added 'Harder Space Science' as an optional dependency.
+---------------------------------------------------------------------------------------------------
+Version: 0.1.2
+Date: 2025-09-01
+  Changes:
+    - Removed optional dep: Intelligent Enemy.
 ---------------------------------------------------------------------------------------------------
 Version: 0.1.1
 Date: 2025-09-01

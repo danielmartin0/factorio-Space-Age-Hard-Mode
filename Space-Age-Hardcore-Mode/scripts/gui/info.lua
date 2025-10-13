@@ -25,7 +25,7 @@ function Public.toggle_window(player)
 
 	flow2 = flow.add({
 		type = "label",
-		caption = "[font=scenario-message-dialog]Space Age: Hard Mode is a collection of Vanilla+ mods & tweaks that tighten the gameplay of Space Age, removing certain [color=orange]shortcuts[/color] and adding interesting challenge.\n\n[color=orange]Cargo drops[/color] on planets require a new cargo pod item made from materials native to that planet in the platform's hub.\n\nEach planet has slightly tweaked gameplay. Certain research, such as [color=orange]Logistic System[/color], are delayed until Aquilo.[/font]",
+		caption = "[font=scenario-message-dialog]Space Age: Hard Mode is a Vanilla+ modpack that tightens the gameplay of Space Age, removing [color=orange]shortcuts[/color] and adding interesting challenge.\n\nEach planet has slightly tweaked gameplay. Vulcanus, Fulgora and Gleba have [color=orange]cargo drops disabled[/color] at first.\n\nCertain technologies are locked behind building a small on-planet science chain, and others (like [color=orange]Logistic System[/color]) are delayed in the tech tree.[/font]",
 	})
 	flow2.style.font_color = GuiCommon.friendly_font_color
 	flow2.style.single_line = false

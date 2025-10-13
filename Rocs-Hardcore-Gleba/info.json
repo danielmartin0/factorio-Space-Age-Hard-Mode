@@ -1,6 +1,6 @@
 {
     "name": "Rocs-Hardcore-Gleba",
-    "version": "2.0.18",
+    "version": "2.1.1",
     "factorio_version": "2.0",
     "title": "Hard Gleba",
     "author": "thesixthroc",
@@ -10,9 +10,9 @@
     "dependencies": [
         "base >= 2.0.19",
         "space-age >= 2.0.19",
-        "Rocs-Hardcore-Probabilistic-Farming",
         "PlanetsLib >= 1.10.4",
-        "Gleba-Science-Needs-Nutrients"
+        "? Rocs-Hardcore-Probabilistic-Farming",
+        "? Gleba-Science-Needs-Nutrients"
     ],
     "spoiling_required": true
 }

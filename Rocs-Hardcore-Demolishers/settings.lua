@@ -8,6 +8,13 @@ data:extend({
 	},
 	{
 		type = "bool-setting",
+		name = "rocs-hardcore-demolishers-cargo-drop-research-needs-space-science",
+		setting_type = "startup",
+		default_value = true,
+		order = "b",
+	},
+	{
+		type = "bool-setting",
 		name = "rocs-hardcore-demolishers-stronger-demolishers",
 		setting_type = "startup",
 		default_value = true,
@@ -43,9 +50,9 @@ data:extend({
 	},
 	{
 		type = "bool-setting",
-		name = "rocs-hardcore-demolishers-disable-no-lava-in-pipes",
+		name = "rocs-hardcore-vulcanus-nerf-coal-liquefaction-recipes",
 		setting_type = "startup",
 		default_value = false,
-		order = "w",
+		order = "h",
 	},
 })
