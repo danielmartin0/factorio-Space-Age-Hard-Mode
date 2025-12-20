@@ -1,12 +1,17 @@
 ---------------------------------------------------------------------------------------------------
-Version: 1.0.14
-Date: ????
+Version: 1.1.1
+Date: ????-??-??
   Changes:
 ---------------------------------------------------------------------------------------------------
 Version: 1.1.0
+Date: 2025-10-19
+  Changes:
+    - Cerys is now pitch black at night.
+---------------------------------------------------------------------------------------------------
+Version: 1.0.14
 Date: 2025-07-24
   Changes:
-    - Pushing a dummy version to notify of recent upstream changes: Hard Cerys now makes Fulgoran cryoplants take +50% energy usage, and the NRMP recipe now requires 35 sulfuric acid instead of 15.
+    - Hard Cerys now makes Fulgoran cryoplants take +50% energy usage, and the NRMP recipe now requires 35 sulfuric acid instead of 15.
 ---------------------------------------------------------------------------------------------------
 Version: 1.0.12
 Date: 2025-04-22

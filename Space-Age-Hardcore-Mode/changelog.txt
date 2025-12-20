@@ -1,7 +1,23 @@
 ---------------------------------------------------------------------------------------------------
-Version: 2.4.1
+Version: 2.4.4
 Date: ????
   Changes:
+---------------------------------------------------------------------------------------------------
+Version: 2.4.3
+Date: 2025-12-20
+  Changes:
+    - Heat-resistant Pipes mod is now optional due to code performance and desync issues.
+---------------------------------------------------------------------------------------------------
+Version: 2.4.2
+Date: 2025-12-18
+  Changes:
+    - Added optional dep on No Mining Productivity Technologies.
+    - Removed optional dep on Inverted Quality.
+---------------------------------------------------------------------------------------------------
+Version: 2.4.1
+Date: 2025-12-08
+  Changes:
+    - Railguns Require Fluoroketone dependency is now optional due to being unmaintained. (We can reinstate if someone forks it and fixes the current issues.)
 ---------------------------------------------------------------------------------------------------
 Version: 2.4.0
 Date: 2025-09-27

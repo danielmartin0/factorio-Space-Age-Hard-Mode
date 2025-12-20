@@ -125,7 +125,7 @@ function Public.update_underground_pipes_tech(force, display_notification)
 		"electromagnetic-science-pack",
 		"agricultural-science-pack",
 	}) do
-		if technologies[pack].researched == true then
+		if technologies[pack] and technologies[pack].valid and technologies[pack].researched == true then
 			count = count + 1
 		end
 		if count == needed then

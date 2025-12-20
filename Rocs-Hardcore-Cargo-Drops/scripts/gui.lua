@@ -9,7 +9,7 @@ script.on_event(defines.events.on_gui_opened, function(event)
 		return
 	end
 
-	local player = game.connected_players[event.player_index]
+	local player = game.players[event.player_index]
 
 	if not (player and player.valid) then
 		return
@@ -184,7 +184,7 @@ script.on_event(defines.events.on_gui_checked_state_changed, function(event)
 		return
 	end
 
-	local player = game.connected_players[event.player_index]
+	local player = game.players[event.player_index]
 
 	if not (player and player.valid) then
 		return
@@ -219,7 +219,7 @@ script.on_event(defines.events.on_gui_value_changed, function(event)
 		return
 	end
 
-	local player = game.connected_players[event.player_index]
+	local player = game.players[event.player_index]
 
 	if not (player and player.valid) then
 		return
@@ -252,7 +252,7 @@ script.on_event(defines.events.on_gui_text_changed, function(event)
 		return
 	end
 
-	local player = game.connected_players[event.player_index]
+	local player = game.players[event.player_index]
 
 	if not (player and player.valid) then
 		return
@@ -335,7 +335,7 @@ script.on_event(defines.events.on_entity_settings_pasted, function(event)
 end)
 
 script.on_event(defines.events.on_player_setup_blueprint, function(event)
-	local player = game.connected_players[event.player_index]
+	local player = game.players[event.player_index]
 
 	if not (player and player.valid) then
 		return

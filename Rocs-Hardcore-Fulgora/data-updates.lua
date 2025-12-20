@@ -1,3 +1,50 @@
+local lib = require("lib")
+local merge = lib.merge
+
+local function replace_electromagnetic_science_pack_with_low_charge(technology)
+	if technology and technology.unit and technology.unit.ingredients then
+		local old_unit_ingredients = technology.unit.ingredients
+		local new_unit_ingredients = {}
+		for _, ingredient in ipairs(old_unit_ingredients) do
+			if ingredient[1] == "electromagnetic-science-pack" then
+				table.insert(new_unit_ingredients, { "low-charge-electromagnetic-science-pack", ingredient[2] })
+			else
+				table.insert(new_unit_ingredients, ingredient)
+			end
+		end
+		technology.unit.ingredients = new_unit_ingredients
+	end
+end
+
+local low_charge_pack = data.raw.item["low-charge-electromagnetic-science-pack"]
+if low_charge_pack and data.raw.tool["electromagnetic-science-pack"] then
+	data:extend({
+		merge(low_charge_pack, {
+			type = "tool",
+			durability = data.raw.tool["electromagnetic-science-pack"].durability,
+		}),
+	})
+	data.raw.item["low-charge-electromagnetic-science-pack"] = nil
+
+	for _, lab in pairs(data.raw.lab) do
+		local inputs = lab.inputs
+		if inputs then
+			for _, input in ipairs(inputs) do
+				if input == "electromagnetic-science-pack" then
+					table.insert(inputs, "low-charge-electromagnetic-science-pack")
+					break
+				end
+			end
+		end
+	end
+
+	replace_electromagnetic_science_pack_with_low_charge(data.raw.technology["lightning-rod"])
+
+	if not settings.startup["rocs-hardcore-fulgora-cargo-drop-research-needs-space-science"].value then
+		replace_electromagnetic_science_pack_with_low_charge(data.raw.technology["planetslib-fulgora-cargo-drops"])
+	end
+end
+
 PlanetsLib.add_entity_type_to_planet_cargo_drops_whitelist("fulgora", "construction-robot")
 
 if settings.startup["rocs-hardcore-fulgora-lightning-rods-need-research"].value then

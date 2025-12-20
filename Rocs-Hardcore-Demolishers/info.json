@@ -1,21 +1,21 @@
 {
-    "name": "Rocs-Hardcore-Demolishers",
-    "version": "2.3.1",
-    "factorio_version": "2.0",
-    "title": "Hard Vulcanus",
-    "author": "thesixthroc",
-    "contact": "Discord: https://discord.gg/VuVhYUBbWE",
-    "description": "Tweaks to Vulcanus. Demolishers are more numerous, the starting area is much smaller, molten lava and metals have restrictions on how they can be piped, and certain casting recipes are locked behind building a small science chain on Vulcanus. Vanilla+.",
-    "homepage": "https://discord.gg/VuVhYUBbWE",
-    "dependencies": [
-        "base >= 2.0.21",
-        "space-age >= 2.0.21",
-        "PlanetsLib >= 1.10.4",
-        "? NoLavaInPipes",
-        "? HotPipesFork",
-        "? behemoth-enemies",
-        "? Explosive_biters",
-        "? hide-territory"
-    ],
-    "segmented_units_required": true
+  "name": "Rocs-Hardcore-Demolishers",
+  "version": "2.3.2",
+  "factorio_version": "2.0",
+  "title": "Hard Vulcanus",
+  "author": "thesixthroc",
+  "contact": "Discord: https://discord.gg/VuVhYUBbWE",
+  "description": "Tweaks to Vulcanus. Demolishers are more numerous, the starting area is much smaller, molten lava and metals have restrictions on how they can be piped, and certain casting recipes are locked behind building a small science chain on Vulcanus.\n\nCertain dependencies are intended to be included by default, but are listed as optional for better customizability. To get the full experience, enable this mod via the Space Age: Hard Mode modpack.",
+  "homepage": "https://discord.gg/VuVhYUBbWE",
+  "dependencies": [
+    "base >= 2.0.21",
+    "space-age >= 2.0.21",
+    "PlanetsLib >= 1.10.4",
+    "? NoLavaInPipes",
+    "? HotPipesFork",
+    "? behemoth-enemies",
+    "? Explosive_biters",
+    "? hide-territory"
+  ],
+  "segmented_units_required": true
 }

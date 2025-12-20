@@ -1,28 +1,35 @@
 local util = require("util")
+local lib = require("lib")
+local merge = lib.merge
 
-if settings.startup["rocs-hardcore-fulgora-lightning-rods-need-research"].value then
-	local lightning_rod_tech = util.table.deepcopy(data.raw.technology["lightning-collector"])
-	lightning_rod_tech.name = "lightning-rod"
-	lightning_rod_tech.prerequisites = { "electromagnetic-science-pack" }
-	lightning_rod_tech.icon = "__Rocs-Hardcore-Fulgora__/graphics/technology/lightning-rod.png"
-	lightning_rod_tech.icon_size = 352
-	lightning_rod_tech.effects = {
-		{
-			type = "unlock-recipe",
-			recipe = "lightning-rod",
-		},
-	}
-	lightning_rod_tech.unit = {
-		count = 100,
-		ingredients = {
-			{ "automation-science-pack", 1 },
-			{ "logistic-science-pack", 1 },
-			{ "chemical-science-pack", 1 },
-			{ "electromagnetic-science-pack", 1 },
-		},
-		time = 60,
-	}
-	data:extend({ lightning_rod_tech })
+if
+	settings.startup["rocs-hardcore-fulgora-lightning-rods-need-research"].value
+	and data.raw.technology["lightning-collector"]
+then
+	data:extend({
+		merge(data.raw.technology["lightning-collector"], {
+			name = "lightning-rod",
+			prerequisites = { "electromagnetic-science-pack" },
+			icon = "__Rocs-Hardcore-Fulgora__/graphics/technology/lightning-rod.png",
+			icon_size = 352,
+			effects = {
+				{
+					type = "unlock-recipe",
+					recipe = "lightning-rod",
+				},
+			},
+			unit = {
+				count = 100,
+				ingredients = {
+					{ "automation-science-pack", 1 },
+					{ "logistic-science-pack", 1 },
+					{ "chemical-science-pack", 1 },
+					{ "electromagnetic-science-pack", 1 },
+				},
+				time = 60,
+			},
+		}),
+	})
 end
 
 if settings.startup["rocs-hardcore-fulgora-make-ruins-placeable"].value then
