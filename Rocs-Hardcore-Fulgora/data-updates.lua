@@ -118,6 +118,6 @@ end
 if settings.startup["rocs-hardcore-fulgora-make-ruins-placeable"].value then
 	-- Make Fulgoran ruin attractors placeable:
 	data.raw["lightning-attractor"]["fulgoran-ruin-attractor"].minable =
-		{ mining_time = 0.1, result = "fulgoran-ruin-attractor" }
+		{ mining_time = 0.2, result = "fulgoran-ruin-attractor" }
 	data.raw["lightning-attractor"]["fulgoran-ruin-attractor"].subgroup = nil
 end

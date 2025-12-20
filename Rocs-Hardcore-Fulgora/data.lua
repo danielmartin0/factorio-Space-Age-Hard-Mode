@@ -42,6 +42,34 @@ if settings.startup["rocs-hardcore-fulgora-make-ruins-placeable"].value then
 	fulgoran_ruin_attractor.place_result = "fulgoran-ruin-attractor"
 
 	data:extend({ fulgoran_ruin_attractor })
+
+	data:extend({
+		{
+			type = "technology",
+			name = "fulgoran-ruin-attractor-mining",
+			localised_name = { "", { "entity-name.fulgoran-ruin-attractor" }, " ", { "rocs-hardcore-fulgora.mining" } },
+			icon = "__Rocs-Hardcore-Fulgora__/graphics/technology/fulgoran-ruin-attractor-mining.png",
+			icon_size = 256,
+			prerequisites = { "planet-discovery-fulgora" },
+			effects = {
+				{
+					type = "nothing",
+					effect_description = { "effect-description.fulgoran-ruin-attractor-mining" },
+				},
+			},
+			unit = {
+				count = 10,
+				ingredients = {
+					{ "electromagnetic-science-pack", 1 },
+				},
+				time = 60,
+			},
+		},
+	})
+
+	if data.raw.technology["lightning-rod"] then
+		data.raw.technology["lightning-rod"].prerequisites = { "fulgoran-ruin-attractor-mining" }
+	end
 end
 
 if settings.startup["rocs-hardcore-fulgora-cargo-drops-need-research"].value then
