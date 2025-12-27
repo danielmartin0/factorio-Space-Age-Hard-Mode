@@ -1,6 +1,6 @@
 {
   "name": "Space-Age-Hardcore-Mode",
-  "version": "2.4.4",
+  "version": "3.0.1",
   "factorio_version": "2.0",
   "title": "Space Age Hard Mode",
   "author": "thesixthroc",
@@ -11,6 +11,7 @@
   "dependencies": [
     "base >= 2.0.0",
     "space-age >= 2.0.0",
+    "? VFG-Cargo-Drops-Require-Research",
     "Rocs-Hardcore-Delayed-Tech-Tree",
     "Rocs-Hardcore-Nauvis",
     "Rocs-Hardcore-Demolishers >= 2.0.3",
@@ -22,10 +23,10 @@
     "harder-pack",
     "Rocs-Hardcore-Lightning-Storms",
     "NoLavaInPipes",
-    "? HotPipesFork",
+    "HotPipesFork",
     "Rocs-Hardcore-Probabilistic-Farming",
     "Gleba-Science-Needs-Nutrients",
-    "quality-asteroids",
+    "Quality-Asteroids-Expanded",
     "no-more-asteroid-quality",
     "promethium-decay",
     "? Railguns-Require-Fluoroketone",
@@ -37,13 +38,17 @@
     "LandmineExplosionsDoHurt",
     "BiterShield2",
     "behemoth-enemies",
-    "NightvisionOverhaulSpaceAge",
+    "? NightvisionOverhaulSpaceAge",
+    "Electric_flying_enemies",
     "? radar_unlocks_map",
     "? Rocs-Hardcore-Cerys",
     "? Rocs-Hardcore-Muluna",
     "? Rocs-Hardcore-Cargo-Drops",
     "? HighPrecisionManufacturing",
     "? No-Mining-Productivity",
+    "? better-gleba-experience",
+    "? Explosive_biters",
+    "? hide-territory",
     "(?) Flare Stack"
   ]
 }

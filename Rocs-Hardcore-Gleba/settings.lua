@@ -1,19 +1,5 @@
 data:extend({
 	{
-		type = "bool-setting",
-		name = "rocs-hardcore-gleba-cargo-drops-need-research",
-		setting_type = "startup",
-		default_value = true,
-		order = "a",
-	},
-	{
-		type = "bool-setting",
-		name = "rocs-hardcore-gleba-cargo-drop-research-needs-space-science",
-		setting_type = "startup",
-		default_value = true,
-		order = "b",
-	},
-	{
 		type = "double-setting",
 		name = "rocs-hardcore-gleba-spoil-ticks-multiplier",
 		setting_type = "startup",
@@ -21,13 +7,6 @@ data:extend({
 		minimum_value = 0.01,
 		maximum_value = 100,
 		order = "c",
-	},
-	{
-		type = "bool-setting",
-		name = "rocs-hardcore-gleba-push-back-heating-tower",
-		setting_type = "startup",
-		default_value = true,
-		order = "d",
 	},
 	{
 		type = "bool-setting",

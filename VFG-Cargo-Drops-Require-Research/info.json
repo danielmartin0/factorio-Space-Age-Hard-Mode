@@ -1,0 +1,16 @@
+{
+  "name": "VFG-Cargo-Drops-Require-Research",
+  "version": "1.0.0",
+  "factorio_version": "2.0",
+  "title": "V/F/G Cargo Drops Require Research",
+  "author": "thesixthroc",
+  "contact": "Discord: https://discord.gg/VuVhYUBbWE",
+  "description": "Before cargo can be dropped on Vulcanus, Fulgora and Gleba, new technologies must be researched (except for dropping construction bots.)",
+  "homepage": "https://foundrygg.com",
+  "dependencies": [
+    "base >= 2.0.72",
+    "space-age >= 2.0.72",
+    "PlanetsLib >= 1.14.7"
+  ],
+  "space_travel_required": true
+}

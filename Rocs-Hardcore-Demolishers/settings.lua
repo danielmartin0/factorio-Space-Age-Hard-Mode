@@ -1,31 +1,10 @@
 data:extend({
 	{
 		type = "bool-setting",
-		name = "rocs-hardcore-demolishers-cargo-drops-need-research",
-		setting_type = "startup",
-		default_value = true,
-		order = "a",
-	},
-	{
-		type = "bool-setting",
-		name = "rocs-hardcore-demolishers-cargo-drop-research-needs-space-science",
-		setting_type = "startup",
-		default_value = true,
-		order = "b",
-	},
-	{
-		type = "bool-setting",
 		name = "rocs-hardcore-demolishers-stronger-demolishers",
 		setting_type = "startup",
 		default_value = true,
 		order = "c",
-	},
-	{
-		type = "bool-setting",
-		name = "rocs-hardcore-advanced-casting-recipe",
-		setting_type = "startup",
-		default_value = true,
-		order = "d",
 	},
 	{
 		type = "bool-setting",

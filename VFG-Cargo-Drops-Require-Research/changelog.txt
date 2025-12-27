@@ -1,0 +1,10 @@
+---------------------------------------------------------------------------------------------------
+Version: 1.0.1
+Date: 2025-12-26
+  Features:
+    - Challenging Pack Logistics added as an optional dependency (we support this by making the ion
+---------------------------------------------------------------------------------------------------
+Version: 1.0.0
+Date: 2025-12-26
+  Features:
+    - Initial release.

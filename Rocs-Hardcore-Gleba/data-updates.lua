@@ -1,6 +1,4 @@
-PlanetsLib.add_entity_type_to_planet_cargo_drops_whitelist("gleba", "construction-robot")
-
-if settings.startup["rocs-hardcore-gleba-push-back-heating-tower"].value then
+if mods["VFG-Cargo-Drops-Require-Research"] then
 	data.raw.technology["heating-tower"].prerequisites = {
 		"agricultural-science-pack",
 	}
@@ -18,17 +16,19 @@ if settings.startup["rocs-hardcore-gleba-push-back-heating-tower"].value then
 end
 
 if settings.startup["rocs-hardcore-gleba-move-forward-coal-synthesis"].value then
-	for i, effect in ipairs(data.raw.technology["rocket-turret"].effects) do
-		if effect.recipe == "coal-synthesis" then
-			table.remove(data.raw.technology["rocket-turret"].effects, i)
-			break
+	if data.raw.technology["rocket-turret"] and data.raw.technology["biochamber"] then
+		for i, effect in ipairs(data.raw.technology["rocket-turret"].effects) do
+			if effect.recipe == "coal-synthesis" then
+				table.remove(data.raw.technology["rocket-turret"].effects, i)
+				break
+			end
 		end
-	end
 
-	table.insert(data.raw.technology["biochamber"].effects, { type = "unlock-recipe", recipe = "coal-synthesis" })
+		table.insert(data.raw.technology["biochamber"].effects, { type = "unlock-recipe", recipe = "coal-synthesis" })
+	end
 end
 
 local discovery_tech = data.raw.technology["planet-discovery-gleba"]
-if discovery_tech and discovery_tech.prerequisites then
+if discovery_tech and discovery_tech.prerequisites and data.raw.technology["rocketry"] then
 	table.insert(discovery_tech.prerequisites, "rocketry")
 end

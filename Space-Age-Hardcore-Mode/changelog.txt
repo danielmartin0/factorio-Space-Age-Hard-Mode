@@ -1,7 +1,18 @@
 ---------------------------------------------------------------------------------------------------
-Version: 2.4.4
+Version: 3.0.1
 Date: ????
   Changes:
+---------------------------------------------------------------------------------------------------
+Version: 3.0.0
+Date: 2025-12-27
+  Changes:
+    - Cargo drop locks are now optional! This restriction has been split out as a separate mod, 'V/F/G Cargo Drops Require Research', due to its large preference-dependent change to the nature of the game. If installed, Hard Vulcanus, Hard Fulgora and Hard Gleba now only gate certain recipes behind a on-planet science chain.
+    - Dependency changes: Nightvision Overhaul now off by default due to code desync issues. Fulgoran Enemies now on by default. Heat-resistant Pipes now on by default. New optional dep Better Gleba Experience.
+---------------------------------------------------------------------------------------------------
+Version: 2.4.4
+Date: 2025-12-22
+  Changes:
+    - Replaced quality-asteroids dependency with Quality-Asteroids-Expanded.
 ---------------------------------------------------------------------------------------------------
 Version: 2.4.3
 Date: 2025-12-20

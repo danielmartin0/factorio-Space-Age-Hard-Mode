@@ -1,5 +1,3 @@
-PlanetsLib.add_entity_type_to_planet_cargo_drops_whitelist("vulcanus", "construction-robot")
-
 if settings.startup["rocs-hardcore-vulcanus-condensed-map"].value then
 	data.raw["noise-expression"]["vulcanus_starting_area_radius"].expression = "(4 / 7) * 0.7 * 0.75"
 
@@ -89,7 +87,7 @@ if settings.startup["rocs-hardcore-vulcanus-cooler-steam"].value then
 	end
 end
 
-if settings.startup["rocs-hardcore-advanced-casting-recipe"].value then
+if mods["VFG-Cargo-Drops-Require-Research"] then
 	data.raw.recipe["transport-belt"].category = "crafting"
 	data.raw.recipe["underground-belt"].category = "crafting"
 	data.raw.recipe["splitter"].category = "crafting"

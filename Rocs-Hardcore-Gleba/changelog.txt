@@ -1,7 +1,18 @@
 ---------------------------------------------------------------------------------------------------
-Version: 2.1.2
+Version: 2.2.2
 Date: ????
   Changes:
+---------------------------------------------------------------------------------------------------
+Version: 2.2.1
+Date: 2025-12-27
+  Changes:
+    - Added Better Gleba Experience as an optional dependency.
+---------------------------------------------------------------------------------------------------
+Version: 2.2.0
+Date: 2025-12-27
+  Changes:
+    - The 'cargo drops require research' functionality has moved to a separate mod.
+    - Only if 'V/F/G Cargo drops require research' is installed will the heating tower be moved back in the tech tree.
 ---------------------------------------------------------------------------------------------------
 Version: 2.1.1
 Date: 2025-11-06

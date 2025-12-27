@@ -1,6 +1,6 @@
 local util = require("util")
 
-if settings.startup["rocs-hardcore-advanced-casting-recipe"].value then
+if mods["VFG-Cargo-Drops-Require-Research"] then
 	data:extend({
 		{
 			type = "technology",
@@ -128,25 +128,4 @@ if settings.startup["rocs-hardcore-advanced-casting-recipe"].value then
 
 		data:extend({ recipe })
 	end
-end
-
-if settings.startup["rocs-hardcore-demolishers-cargo-drops-need-research"].value then
-	local vulcanus_cargo_tech =
-		PlanetsLib.cargo_drops_technology_base("vulcanus", "__space-age__/graphics/technology/vulcanus.png", 256)
-	vulcanus_cargo_tech.prerequisites = { "metallurgic-science-pack" }
-	vulcanus_cargo_tech.unit = {
-		count = 1000,
-		time = 60,
-		ingredients = {
-			{ "automation-science-pack", 1 },
-			{ "logistic-science-pack", 1 },
-			{ "chemical-science-pack", 1 },
-			{ "metallurgic-science-pack", 1 },
-		},
-	}
-	if settings.startup["rocs-hardcore-demolishers-cargo-drop-research-needs-space-science"].value then
-		table.insert(vulcanus_cargo_tech.unit.ingredients, { "space-science-pack", 1 })
-	end
-
-	data:extend({ vulcanus_cargo_tech })
 end
