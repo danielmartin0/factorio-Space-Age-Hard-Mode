@@ -34,4 +34,25 @@ data:extend({
 		default_value = false,
 		order = "h",
 	},
+	{
+		type = "bool-setting",
+		name = "rocs-hardcore-advanced-casting-recipe",
+		setting_type = "startup",
+		default_value = true,
+		hidden = true,
+	},
+	{
+		type = "bool-setting",
+		name = "rocs-hardcore-demolishers-cargo-drops-need-research",
+		setting_type = "startup",
+		default_value = true,
+		hidden = true,
+	},
+	{
+		type = "bool-setting",
+		name = "rocs-hardcore-demolishers-cargo-drop-research-needs-space-science",
+		setting_type = "startup",
+		default_value = true,
+		hidden = true,
+	},
 })

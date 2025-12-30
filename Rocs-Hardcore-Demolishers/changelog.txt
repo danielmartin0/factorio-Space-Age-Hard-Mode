@@ -1,7 +1,19 @@
 ---------------------------------------------------------------------------------------------------
-Version: 2.4.1
+Version: 2.4.4
 Date: ????
   Changes:
+---------------------------------------------------------------------------------------------------
+Version: 2.4.3-2.4.2
+Date: ????
+  Compatibility:
+    - Fixed a compatibility crash due to an old setting being removed.
+---------------------------------------------------------------------------------------------------
+Version: 2.4.1
+Date: 2025-12-29
+  Info:
+    - Mod description now has "For full details, see the mod portal page."
+  Changes:
+    - Added dependencies Carbonut Agriculture and Tungsten Mining Require Lube.
 ---------------------------------------------------------------------------------------------------
 Version: 2.4.0
 Date: 2025-12-27

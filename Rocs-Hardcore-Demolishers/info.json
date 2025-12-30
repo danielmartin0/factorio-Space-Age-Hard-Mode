@@ -1,11 +1,11 @@
 {
   "name": "Rocs-Hardcore-Demolishers",
-  "version": "2.4.1",
+  "version": "2.4.4",
   "factorio_version": "2.0",
   "title": "Hard Vulcanus",
   "author": "thesixthroc",
   "contact": "Discord: https://discord.gg/VuVhYUBbWE",
-  "description": "Tweaks to Vulcanus. Demolishers are more numerous, the starting area is much smaller, molten lava and metals have restrictions on how they can be piped, Acid Neutralisation produces cooler steam, and coal liquefaction is nerfed. If 'V/F/G Cargo Drops Require Research' is installed, complex casting recipes are locked behind building a small science chain on Vulcanus.\n\nOther dependencies are intended to be included, but all are listed as optional for maximum customizability. To get the full experience, enable this mod via the Space Age: Hard Mode modpack.",
+  "description": "Tweaks to Vulcanus. Demolishers are more numerous, the map is smaller, molten lava and metals have restrictions on how they can be piped, Acid neutralisation produces cooler steam, coal liquefaction is nerfed, and mining tungsten requires lubricant. For full details, see the mod portal page.\n\nOther dependencies are intended to be included, but all are listed as optional for maximum customizability. To get the full experience, enable this mod via the Space Age: Hard Mode modpack.",
   "homepage": "https://foundrygg.com",
   "dependencies": [
     "base >= 2.0.21",
@@ -16,7 +16,9 @@
     "? HotPipesFork",
     "? behemoth-enemies",
     "? Explosive_biters",
-    "? hide-territory"
+    "? hide-territory",
+    "? carbonut_agriculture",
+    "? tungsten_mining_require_lube"
   ],
   "segmented_units_required": true
 }

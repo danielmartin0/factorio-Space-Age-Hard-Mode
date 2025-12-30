@@ -1,11 +1,11 @@
 {
   "name": "Space-Age-Hardcore-Mode",
-  "version": "3.0.1",
+  "version": "3.0.3",
   "factorio_version": "2.0",
   "title": "Space Age Hard Mode",
   "author": "thesixthroc",
   "contact": "https://discord.gg/am7JUX83x4",
-  "description": "A modpack that tightens the gameplay of Space Age, removing shortcuts and adding interesting challenge.\n\nEach planet has significant variations. Vulcanus, Fulgora and Gleba have cargo drops disabled at first, and certain technologies are now locked behind building a small on-planet science chain. A range of other challenge tweaks are included.",
+  "description": "A modpack that tightens the gameplay of Space Age, removing shortcuts, adding interesting challenge, and letting Space Age mechanics be more like themselves.\n\nEach planet has many variations: nights are darker, demolishers are more numerous and move faster, lightning can hit locomotives, random variance is added to biorecipes, nuclear reactors no longer work on Aquilo, and more.",
   "homepage": "https://github.com/danielmartin0/Space-Age-Hardcore-Mode",
   "space_travel_required": true,
   "dependencies": [
@@ -40,6 +40,7 @@
     "behemoth-enemies",
     "? NightvisionOverhaulSpaceAge",
     "Electric_flying_enemies",
+    "tungsten_mining_require_lube",
     "? radar_unlocks_map",
     "? Rocs-Hardcore-Cerys",
     "? Rocs-Hardcore-Muluna",
@@ -49,6 +50,7 @@
     "? better-gleba-experience",
     "? Explosive_biters",
     "? hide-territory",
+    "? Carbonut Agriculture",
     "(?) Flare Stack"
   ]
 }
