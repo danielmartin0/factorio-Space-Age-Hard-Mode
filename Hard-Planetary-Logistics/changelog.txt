@@ -1,0 +1,16 @@
+---------------------------------------------------------------------------------------------------
+Version: 0.4.0
+Date: 2026-03-04
+  Features:
+    - Initial release.
+    - Changes to the crafting of tier 2 and 3 modules. The crafting condition for tier 2 modules is now in space, and for tier 3 modules, it depends on planets.
+    - Tier 2 module is being created on a space platform.
+    - Tier 3 speed module created on Vulcanus.
+    - Tier 3 productivity module created on Gleba.
+    - Tier 3 quality module created on Fulgora.
+    - Tier 3 efficiency module created on Nauvis.
+    - Utility and productivity packs created on Nauvis.
+    - Lab building only on Nauvis.
+  Locale:
+    - English
+    - Russian

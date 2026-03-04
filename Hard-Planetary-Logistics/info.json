@@ -1,0 +1,16 @@
+{
+    "name": "Hard-Planetary-Logistics",
+    "version": "0.4.0",
+    "title": "Hard Planetary Logistics",
+    "description": "",
+    "author": "Returner_org",
+    "contact": "https://discord.gg/am7JUX83x4",
+    "homepage": "https://github.com/danielmartin0/Space-Age-Hardcore-Mode",
+    "factorio_version": "2.0",
+    "space_travel_required": true,
+    "dependencies": [
+        "base >= 2.0.0",
+        "space-age >= 2.0.0",
+        "? Space-Age-Hardcore-Mode"
+    ]
+}
