@@ -3,19 +3,20 @@ local lib = require("lib")
 local excluded_tech_names = {
 } -- Const => table
 
-local blacklist_string = lib.settings_mods(
-	"rocs-hardcore-z-infinite-tech-blacklist",
-	"startup"
-)
-
--- Adding tech to blacklist
-if blacklist_string and blacklist_string ~= "" then
-    for tech_name in string.gmatch(blacklist_string, "([^,%s]+)") do
-        excluded_tech_names[tech_name] = true
-    end
-end
 
 if settings.startup["rocs-hardcore-z-infinite-tech-needs-cryogenic"].value then
+	local blacklist_string = lib.settings_mods(
+		"rocs-hardcore-z-infinite-tech-blacklist",
+		"startup"
+	)
+	
+	-- Adding tech to blacklist
+	if blacklist_string and blacklist_string ~= "" then
+		for tech_name in string.gmatch(blacklist_string, "([^,%s]+)") do
+			excluded_tech_names[tech_name] = true
+		end
+	end
+
 	local techs_to_process = {}
 	for name, tech in pairs(data.raw.technology) do
 		local allow = true
