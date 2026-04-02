@@ -1,13 +1,28 @@
-local EXCLUDED_TECH_NAMES = {
-	["health"] = true,
-}
+local lib = require("lib")
+
+local excluded_tech_names = {
+} -- Const => table
+
+local blacklist_string = lib.settings_mods(
+	"rocs-hardcore-z-infinite-tech-blacklist",
+	"startup"
+)
+
+-- Adding tech to blacklist
+if blacklist_string and blacklist_string ~= "" then
+    for tech_name in string.gmatch(blacklist_string, "([^,%s]+)") do
+        excluded_tech_names[tech_name] = true
+    end
+end
 
 if settings.startup["rocs-hardcore-z-infinite-tech-needs-cryogenic"].value then
 	local techs_to_process = {}
 	for name, tech in pairs(data.raw.technology) do
 		local allow = true
 
-		if EXCLUDED_TECH_NAMES[name] then
+		local base_name = name:gsub("%-%d+$", "") -- I remove the extra values ​​at the end (-uint)
+
+		if excluded_tech_names[name] or excluded_tech_names[base_name] then
 			allow = false
 		end
 
@@ -72,7 +87,6 @@ if settings.startup["rocs-hardcore-z-infinite-tech-needs-cryogenic"].value then
 
 			second_tech.name = base_name .. (current_num + 1)
 			second_tech.max_level = nil
-			second_tech.max_level = nil
 			second_tech.prerequisites = { tech.name }
 
 			third_tech.name = base_name .. (current_num + 2)
@@ -82,7 +96,6 @@ if settings.startup["rocs-hardcore-z-infinite-tech-needs-cryogenic"].value then
 			-- tech_revised.name = tech.name .. "-1"
 
 			second_tech.name = tech.name .. "-2"
-			second_tech.max_level = nil
 			second_tech.max_level = nil
 			second_tech.prerequisites = { tech.name }
 
