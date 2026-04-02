@@ -43,10 +43,4 @@ data:extend({
 		setting_type = "startup",
 		default_value = true,
 	},
-	{
-		type = "bool-setting",
-		name = "rocs-hardcore-allow-mods-change-settings",
-		setting_type = "startup",
-		default_value = true,
-	},
 })
