@@ -1,6 +1,6 @@
 {
   "name": "Space-Age-Hardcore-Mode",
-  "version": "3.0.3",
+  "version": "3.0.4",
   "factorio_version": "2.0",
   "title": "Space Age Hard Mode",
   "author": "thesixthroc",
@@ -39,7 +39,6 @@
     "BiterShield2",
     "behemoth-enemies",
     "? NightvisionOverhaulSpaceAge",
-    "? Hard-Planetary-Logistics",
     "Electric_flying_enemies",
     "tungsten_mining_require_lube",
     "? radar_unlocks_map",
@@ -51,7 +50,7 @@
     "? better-gleba-experience",
     "? Explosive_biters",
     "? hide-territory",
-    "? Carbonut Agriculture",
+    "? carbonut_agriculture",
     "(?) Flare Stack"
   ]
 }
