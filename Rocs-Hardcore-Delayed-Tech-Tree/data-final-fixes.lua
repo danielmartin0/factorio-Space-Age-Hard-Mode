@@ -1,14 +1,9 @@
-local tool = require("tool")
-
 local excluded_tech_names = {
 } -- Const => table
 
 
 if settings.startup["rocs-hardcore-z-infinite-tech-needs-cryogenic"].value then
-	local blacklist_string = tool.settings_mods(
-		"rocs-hardcore-z-infinite-tech-blacklist",
-		"startup"
-	)
+	local blacklist_string = settings.startup["rocs-hardcore-z-infinite-tech-blacklist"].value
 	
 	-- Adding tech to blacklist
 	if blacklist_string and blacklist_string ~= "" then
