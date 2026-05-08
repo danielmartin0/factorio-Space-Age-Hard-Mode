@@ -35,7 +35,6 @@ data:extend({
 		allow_blank = true,
 		setting_type = "startup",
 		default_value = "health, follower-robot-count",
-		hidden = true
 	},
 	{
 		type = "bool-setting",
