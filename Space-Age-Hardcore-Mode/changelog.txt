@@ -1,7 +1,9 @@
 ---------------------------------------------------------------------------------------------------
 Version: 3.0.4
-Date: ????
+Date: 2026-05-09
   Changes:
+    - All mods except SAHM are now moved to optional mods. - Retunrer_org
+    - Fixed the issue with food for the destroyer in RampantFixed and Behomoth Enemies, now a Behomoth demolisher has been added to the Target filter. - Retunrer_org
 ---------------------------------------------------------------------------------------------------
 Version: 3.0.3
 Date: 2026-02-22
